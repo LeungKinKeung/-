@@ -103,7 +103,9 @@
     if ((d1_2 + d2_2) <= r_2) {
         return YES;
     }
-    
+    if ((d1_2 + d2_2) <= r_2) {
+        return YES;
+    }
     
     
     //纵坐标差
