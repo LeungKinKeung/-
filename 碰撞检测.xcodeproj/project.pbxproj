@@ -14,6 +14,8 @@
 		1806E2571B4EB57B006DABC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1806E2561B4EB57B006DABC6 /* Images.xcassets */; };
 		1806E25A1B4EB57B006DABC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1806E2581B4EB57B006DABC6 /* LaunchScreen.xib */; };
 		1806E2661B4EB57B006DABC6 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806E2651B4EB57B006DABC6 /* ____Tests.m */; };
+		18EA6D631B51626400C31346 /* UIView+LKKXYWH.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA6D621B51626400C31346 /* UIView+LKKXYWH.m */; };
+		18F2B5F01B514DB1003F0D7D /* LKKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2B5EF1B514DB1003F0D7D /* LKKView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		1806E25F1B4EB57B006DABC6 /* 碰撞检测Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "碰撞检测Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1806E2641B4EB57B006DABC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1806E2651B4EB57B006DABC6 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		18EA6D611B51626400C31346 /* UIView+LKKXYWH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LKKXYWH.h"; sourceTree = "<group>"; };
+		18EA6D621B51626400C31346 /* UIView+LKKXYWH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LKKXYWH.m"; sourceTree = "<group>"; };
+		18F2B5EE1B514DB1003F0D7D /* LKKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKKView.h; sourceTree = "<group>"; };
+		18F2B5EF1B514DB1003F0D7D /* LKKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKKView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 				1806E24E1B4EB57A006DABC6 /* AppDelegate.m */,
 				1806E2501B4EB57A006DABC6 /* ViewController.h */,
 				1806E2511B4EB57A006DABC6 /* ViewController.m */,
+				18F2B5EE1B514DB1003F0D7D /* LKKView.h */,
+				18F2B5EF1B514DB1003F0D7D /* LKKView.m */,
+				18EA6D601B51626400C31346 /* UIView+LKKXYWH */,
 				1806E2531B4EB57A006DABC6 /* Main.storyboard */,
 				1806E2561B4EB57B006DABC6 /* Images.xcassets */,
 				1806E2581B4EB57B006DABC6 /* LaunchScreen.xib */,
@@ -117,6 +126,15 @@
 				1806E2641B4EB57B006DABC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18EA6D601B51626400C31346 /* UIView+LKKXYWH */ = {
+			isa = PBXGroup;
+			children = (
+				18EA6D611B51626400C31346 /* UIView+LKKXYWH.h */,
+				18EA6D621B51626400C31346 /* UIView+LKKXYWH.m */,
+			);
+			path = "UIView+LKKXYWH";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1806E2521B4EB57A006DABC6 /* ViewController.m in Sources */,
+				18F2B5F01B514DB1003F0D7D /* LKKView.m in Sources */,
 				1806E24F1B4EB57A006DABC6 /* AppDelegate.m in Sources */,
 				1806E24C1B4EB57A006DABC6 /* main.m in Sources */,
+				18EA6D631B51626400C31346 /* UIView+LKKXYWH.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +434,7 @@
 				1806E26B1B4EB57B006DABC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1806E26C1B4EB57B006DABC6 /* Build configuration list for PBXNativeTarget "碰撞检测Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +443,7 @@
 				1806E26E1B4EB57B006DABC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
